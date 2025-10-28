@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+span , a , p {
+    display: inline-block;
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+.big{
+    margin: 8%;
+    margin-top: 0;
+    margin-bottom: 1%;
+}
+.logo{
+    font-size: 22px;
+    text-align: center;
+    padding: 5%;
+    background-image: url(chef.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.title{
+    font-size: 72px;
+}
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    border-top:2px solid rgb(85, 80, 80);
+    border-bottom:2px solid rgb(85, 80, 80);
+}
+.link{
+    color: black;
+}
+.link1{
+    padding: 1.5%;
+    width: 18%;
+}
+.link2{
+    margin-left: 4%;
+}
+.link3{
+    margin-right: 2%;
+}
+.link1:hover{
+    background-color: #86868b;
+}
+.link1:hover .link{
+    color: white;
+}
+.bigmenu{
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.menu{
+    width: 30%;
+}
+.p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.p1{
+    padding-bottom: 18px;
+}
+.txt{
+    font-size: 12px;
+    font-weight: bold;
+    background-color: orange;
+    padding: 10px;
+}
+.a{
+    text-align: center;
+    color: white;
+    width: 10%;
+}
+.txt1{
+    background-color: red;
+}
+.txt2{
+    background-color: limegreen;
+}
+.txt3{
+    background-color: rgb(3, 181, 251);
+}
+.btnbox{
+    text-align: center;
+    margin-top: 4%;
+}
+.btn{
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 2px solid red;
+    color: red;
+    background-color: white;
+}
+.btn:hover{
+    color: white;
+    background-color: red;
+    border: none;
+}

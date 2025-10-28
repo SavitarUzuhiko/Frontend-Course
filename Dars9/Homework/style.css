@@ -1,0 +1,141 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.first{
+    display: flex;
+    flex-wrap: wrap; 
+    padding: 30px 100px; 
+    border-bottom: 2px solid black;
+    background-image: url(watches.jpg);
+    background-repeat: no-repeat;
+    background-position: right -200px bottom;
+    background-size: 590px;
+    padding-bottom: 100px;
+}
+.second{
+    padding: 60px;
+}
+.third{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3) , rgba(0, 0, 0, 0.3)) ,  url(runners.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% , 0 -210px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 150px;
+}
+.top{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.links{
+    font-size: 16px;
+}
+.link{
+    text-decoration: none;
+    color: gray;
+    margin-left: 50px;
+    font-size: 18px;
+}
+.link:hover{
+    color: red;
+    text-decoration: underline;
+    font-size: 18px;
+}
+.h1{
+    font-size: 50px;
+}
+.txt{
+    border-left: 3px solid gray;
+    font-size: 16px;
+    padding-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.btn{
+    background-color: rgba(255, 0, 0, 0.823);
+    color: whitesmoke;
+    padding: 15px;
+    font-size: 10px;
+    font-weight: bold;
+    border: none;
+}
+.btn:hover{
+    color: rgba(255, 0, 0, 0.823);
+    background-color: white;
+    border: 1px solid rgba(255, 0, 0, 0.823);
+}
+.div1{
+    width: 25%;
+    margin: 102px 0;
+}
+.dot{
+    margin-top:10px;
+    width: 10px;
+    height: 10px;
+    border: 5px solid gray;
+    box-shadow: 15px 0 0 gray , 30px 0 0 gray ;
+
+}
+.line{
+    width: 20px;
+    height: 4px;
+    border: 3px solid red;
+    margin-right:7px;
+}
+.div2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.div3{
+    width: 30%;
+}
+.div6{
+    width: 50%;
+}
+.txt1{
+    font-size: 15px;
+    width: 70%;
+    margin-top: 15px;
+}
+.boxline{
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10px;
+}
+.boxline:hover a{
+    color: black;
+}
+.a{
+    text-decoration: none;
+    color: rgba(255, 0, 0, 0.788);
+}
+.divbox2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.h3{
+    color: whitesmoke;
+    width: 530px;
+}
+.txt2{
+    color: whitesmoke;
+    border-left: 4px solid whitesmoke;
+    font-style:unset;
+}
+.h2{
+    width: 450px;
+    font-weight: bold;
+}

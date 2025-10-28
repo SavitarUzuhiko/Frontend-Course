@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+span ,a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 17px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.big{
+    background-color: #010101;
+}
+
+/* First layer */
+
+.first{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 0;
+    font-size: 15px;
+}
+.link{
+    color: white;
+}
+.center{
+    margin-right: 20px;
+}
+
+/* Second layer */
+
+.second{
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+.h1{
+    font-size: 45px;
+}
+.txt{
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+.one{
+    width: 300px;
+}
+
+/* Third layer */
+
+.third{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.all{
+    color: white;
+    padding-top: 260px;
+    width: 30%;
+}
+.h2{
+    width: 208px;
+    font-size: 35px;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.number{
+    width: 40%;
+}
+.txt1{
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+.txt2{
+    margin-bottom: 8px;
+}
+.imgbox{
+    display: flex;
+    justify-content: flex-end;
+}
+.img2{
+    width: 70%;
+    transform: translateX(50px);
+}
+.h3{
+    text-transform: uppercase;
+    width: 150px;
+    font-size: 30px;
+}
+.txt3{
+    width: 490px;
+    padding: 75px 0;
+}
+.list{
+    padding: 75px 0;
+}
+.about2{
+    margin: 100px 0;
+}
+.gray{
+    color: #b2b0b2;
+}

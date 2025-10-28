@@ -1,0 +1,17 @@
+.div{
+    width: 1000px;
+    height: 600px;
+    background-image: linear-gradient(
+        rgb(4, 171, 237) 0 30%,
+        red 30% 33%,
+        white 33% 65%,
+        red 65% 68%,
+        lime 68% 100%
+    );
+    border: 5px solid black;
+    
+}
+.div2{
+    padding-top:30px;
+    padding-left: 30px;
+}

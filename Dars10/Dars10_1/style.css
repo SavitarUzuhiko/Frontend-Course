@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.full{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.big{
+    margin: auto;
+    width: 700px;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.pic{
+    width: 48%;
+    height: 48%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.623) , rgba(255, 0, 0, 0.623)) , url(photo.jpg);
+    background-position: center;
+    border: 2px solid red;
+}
+.img{
+    width: 200px;
+    height: 200px;
+    background-color: cyan;
+    border-radius: 50%;
+    transform: translate(75px , 75px);
+}
+.big2{
+    width: 750px;
+    background-color: lime;
+    text-align: center;
+    font-size: 22px;
+
+}
+.link{
+    margin-bottom: 200px;
+}

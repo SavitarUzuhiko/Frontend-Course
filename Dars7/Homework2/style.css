@@ -1,0 +1,30 @@
+.big{
+    background-image: url(hummingbird-flying.png) , linear-gradient(rgba(0, 0, 255, 0.4) , rgba(0, 0, 255, 0.4) ) , url(air_balloons.jpg);
+    background-position: top right ,0, bottom ;
+    background-repeat: no-repeat ;
+    background-size: 350px , cover , cover;
+    padding: 40px;
+    padding-left: 80px;
+    padding-bottom: 200px;
+}
+.div1{
+    padding: 30px;
+    width: 900px;
+    font-size: 36px;
+    background-color: rgba(0, 0, 0, 0.66);
+    color: white;
+}
+.div2{
+    padding: 30px;
+    margin-top: 30px;
+    font-size: 27px;
+    line-height: 1.6;
+    background-color: rgba(252, 3, 148, 0.53);
+    color: white;
+}
+.txt1{
+    color: yellow;
+}
+.txt2{
+    font-style: 32px;
+}

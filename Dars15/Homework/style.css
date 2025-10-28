@@ -1,0 +1,32 @@
+.icon{
+    font-size: 160px;
+    color: aqua;
+}
+.icon1{
+    color: green;
+}
+.icon2{
+    color: yellow;
+}
+.icon3{
+    color: orange;
+}
+.icon4{
+    color: rgb(0, 179, 249);
+}
+.icon5{
+    color: blue;
+}
+.icon6{
+    color: rgb(255, 0, 255);
+}
+.icon7{
+    color: lime ;
+}
+.icon8{
+    color: rgb(0, 115, 255);
+}
+.big{
+    text-align: center;
+    margin-top: 80px;
+}

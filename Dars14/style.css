@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+span , a{
+    display: inline-block;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.big{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.all{
+    display: flex;
+    flex-wrap: wrap;
+}
+.first{
+    width: 75%;
+}
+.second{
+    background-color: aqua;
+    width: 20%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+}
+.img{
+    border: 2px solid red;
+    border-radius: 25px;
+    box-shadow: -6px 7px 30px 5px blue;
+}
+.st{
+    margin: 10px;
+    font-size: 18px;
+}
+.link{
+    color: red;
+}
+.imgbox{
+    width: 20%;
+    margin: 40px;
+    transform: rotate(-15deg);
+}
+.title{
+    width: 50%;
+}
+
+.link1{
+    color: black;
+    font-weight: bold;
+}
+.txt{
+    width: 65%;
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+.txt1{
+    background-color: rgb(165, 128, 42);
+}
+.txt2{
+    width: 80%;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.txt3{
+    width: 100%;
+}
+.txt4{
+    width: 100%;
+}
+.txt5{
+    text-align: center;
+}
+.title1{
+    text-align: center;
+    border-radius: 15px; 
+    background-color: whitesmoke;
+    margin: 20px;
+    margin-top: 0;
+    color: red;
+    box-shadow: 0 0 15px gray;
+}
+.h1{
+    width: 70%;
+}
+.h2{
+    margin: 20px;
+}
+.btn{
+    font-size: 20px;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 15px;
+    border: none;
+    background-color: greenyellow;
+}
+.link5{
+    margin-top: 20px ;
+}

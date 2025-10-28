@@ -1,0 +1,29 @@
+.box{
+    background-color: aliceblue;
+    width: 430px;
+    height: 700px;
+    padding-top: 20px;
+}
+.txt{
+    font-size: 50px;
+}
+.text{
+    font-size: 30px;
+}
+.btnbox{
+    padding-top: 10px;
+}
+.btn{
+    font-size: 110px;
+    background-color: white;
+    border: 2px solid lime;
+    border-radius: 15px;
+}
+.span{
+    font-size: 60px;
+    padding-left: 90px;
+    margin-top: 20px;
+    padding-right: 90px;
+    vertical-align: center;
+    color: lime;
+}

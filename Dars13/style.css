@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.hosila{
+    margin: auto;
+}
+span , a{
+    display: inline-block;
+}
+.first{
+    text-align: center;
+    font-size: 32px;
+    color: red;
+}
+.second{
+    text-align: center;
+}
+.third{
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.link{
+    display: inline-block;
+    margin: 10px;
+    padding: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    text-decoration:none;
+    font-size: 120%;
+    border: 2px solid red;
+    background-color: white;
+}
+.link:hover{
+    background-color: rgb(242, 144, 160);
+    color: white;
+    border: 0;
+}
+.img{
+    max-width: 100%;
+    height: auto;
+    border: 3px solid red;
+    border-radius: 15px;
+}
+.imgbox{
+    width: 45%;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.title2{
+    margin-right: 60%;
+    color: rgb(245, 69, 99);
+}
+.title3{
+    margin-right: 25%;
+}
+.satr{
+    width: 48%;
+    margin-left: 10px;
+}
+.bir{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 5px;
+    border-bottom: 2px solid pink;
+}
+.p{
+    margin: 10px;
+}
+.a{
+    border: 1px solid pink;
+    padding: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: pink;
+    border-radius: 10px;
+}
+.a:hover{
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+}
+.narx{
+    align-items: right
+    ;
+}
+.h2{
+    width: 50%;
+}
+.text{
+    width: 50%;
+}

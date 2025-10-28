@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+span , a , title{
+    display: inline-block;
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+.big{
+    background-image: linear-gradient(
+        90deg,
+        purple 20%,
+        rgb(0, 102, 255),
+        darkgreen
+    );
+    padding: 32.5px;
+}
+.camera{
+    background-color: black;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.c1{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+}
+.c2{
+    width: 17px;
+    height: 17px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 1.5px;
+}
+.tablet{
+    border: 15px solid black;
+    width: 32%;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: white;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    background-color: yellow;
+    align-items: center;
+}
+.btn{
+    background-color: rgba(0, 0, 0, 0.783);
+    color: white;
+    border: none;
+    height: 30px;
+    padding: 0 10px;
+    border-radius: 7px;
+}
+.center{
+    padding: 20px;
+    font-size: 18px;
+    height: 500px;
+    overflow: auto;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.btns{
+    width: 25%;
+    border: none;
+    padding: 10px 0;
+    border-left: 2px solid black;
+    background-color: yellow;
+    font-size: 16px;
+}
+.none{
+    border: none;
+}
+.buttons{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 70px;
+}
+
+.keyboards:hover .fa-bars{
+    color: violet;
+}
+.keyboards:hover .fa-home{
+    color: skyblue;
+}
+.keyboards:hover .fa-arrow-left{
+    color: lime;
+}
+.btns:hover{
+    color: green;
+}

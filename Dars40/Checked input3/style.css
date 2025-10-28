@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+span{
+    display: inline-block;
+}
+.big{
+    min-height: 100dvh;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    padding:20px 30px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 15px;
+    border-radius: 15px;
+}
+.label{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid silver;
+    padding: 8px 10px;
+    font-size: 20px;
+    color: silver;
+    border-radius: 8px;
+    column-gap: 10px;
+}
+.input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    border: 0;
+    margin: -1px;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+}
+.fake{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: silver;
+    position: relative;
+}
+.input:checked ~ .label .fake {
+    background-color: dodgerblue;
+    border: 3px solid white;
+}
+.input:checked ~ .label{
+    background-color: dodgerblue;
+    border: 2px solid dodgerblue;
+}
+.input:checked ~ .label .span1{
+    color: white;
+}

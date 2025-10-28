@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+span , a , label {
+    display: inline-block;
+}
+img{
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+.big{
+    padding: 20px;
+    background-color: yellow;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+}
+.box{
+    margin:20px 0;
+    width: 100%;
+    border: 4px solid dodgerblue;
+    padding: 5px;
+}
+.img{
+    width: 300px;
+    transition: 0.3s ease-in;
+}
+.opa{
+    opacity: 0;
+}

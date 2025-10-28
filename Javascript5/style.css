@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+span , a , label {
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: grid;
+}
+.big{
+    padding: 30px;
+}
+.fa-person-dress{
+    font-size: 100px;
+    color: red;
+}
+.fa-person{
+    font-size: 100px;
+    color: blue;
+}
+.img{
+    width: 400px;
+    height: 270px;
+    border-radius: 30px;
+    margin: 50px 0;
+    box-shadow: 0 0 15px lime;
+}
+.btn{
+    padding: 8px 20px;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.btn1{
+    background-color: red;
+}
+

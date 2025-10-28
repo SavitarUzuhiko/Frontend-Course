@@ -1,0 +1,88 @@
+.big{
+    font-size: 36px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(12, 12, 57);
+    background-image:url(pricing-illustration.svg);
+    background-repeat: no-repeat;
+    background-position: 250px 250px;
+    background-size: 740px;
+    width: 1200px;
+    color: white;
+    margin: auto;
+}
+.h{
+    margin-top: 20px;
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-weight: bold ;
+}
+.div0{
+    font-size: 25px;
+    color: gray;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 40px;
+}
+img{
+    padding-right: 10px;
+}
+.div{
+    background-color:rgb(60, 60, 132) ;
+    margin-left: 425px;
+    margin-right: 275px;
+    font-size: 22px;
+    text-align: left;
+    width: 350px;
+}
+.div1{
+    padding: 20px;
+    padding-bottom: 2px;
+}
+.div2{
+    margin: 20px;
+    border-top: 2px solid gray;
+}
+.div3{
+    margin: 20px;
+    border-top: 2px solid #1a202a;
+    padding-top: 10px;
+    color: gray;    
+}
+.div4{
+    border-bottom: 2px solid #1a202a;
+    padding-bottom: 10px;
+}
+.txt1{
+    font-size: 36px;
+    color: gray;
+}
+.txt4{
+    font-size: 16px;
+}
+.txt6{
+    font-size: 45px;
+}
+.txt7{
+    font-size: 18px;
+    color: darkgray;
+}
+.btnbox{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.btn{
+    background-color: rgb(3, 82, 252);
+    padding: 15px;
+    padding-right: 80px;
+    padding-left: 80px;
+    font-size: 17px;
+    color: whitesmoke;
+    border: none;
+}
+.last{
+    background-color: blue;
+    height: 30px;
+    width: 1240px;
+    margin: auto;
+}

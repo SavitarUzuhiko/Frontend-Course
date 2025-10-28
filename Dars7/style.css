@@ -1,0 +1,17 @@
+.big{
+    font-size: 50px;
+    text-height: 1.6;
+    text-align: center;
+    background-image: linear-gradient(180deg,rgba(0, 0, 255, 0.484) , rgba(0, 128, 0, 0.588)) , url(wp6826436-hd-4k-desktop-wallpapers.jpg);
+    padding: 300px;
+    color: white;
+    background-position: center;
+    transition: 1.5s;
+}
+.big:hover{
+    background-position: bottom;
+    color: black;
+    text-shadow: 4px 4px 10px cyan;
+    background-image: linear-gradient(180deg,rgba(0, 0, 0, 0.614) , rgba(0, 255, 255, 0.538)) , url(wp6826436-hd-4k-desktop-wallpapers.jpg);
+    
+}

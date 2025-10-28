@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+span , p {
+    display: inline-block;
+}
+.icon{
+    font-size: 32px;
+    margin-right: 10px;
+    color: rgb(0, 183, 255);
+}
+img{
+    max-width: 100%;
+    vertical-align: middle;
+    height: auto;
+}
+.first{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 0 5px 10px #ccc;
+}
+.second{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+}
+.box1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box2{
+    padding-right: 20px;
+    font-size: 22px;
+}
+.box3{
+    padding: 0;
+}
+.btn{
+    border: 0;
+    color: white;
+    background-image:linear-gradient(45deg, blue , rgb(138, 0, 138));
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.p{
+    margin-top:20px;
+    margin-bottom:20px;
+    font-size: 20px;
+}
+.box7{
+    width: 40%;
+    padding-top: 100px;
+}
+.box8{
+    align-items: center;
+    width: 50%;
+}
+.p2{
+    color: aqua;
+}
+.p1{
+    color: violet;
+}
+.p3{
+    color: dodgerblue;
+}
+.img{
+    width: 100%;
+    border-radius: 15%;
+}
+.btn1{
+    font-size: 20px;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    background-color: dodgerblue;
+}

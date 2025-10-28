@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+span , a {
+    display: inline-block;
+}
+img{
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+.big{
+    background-color: dodgerblue;
+}
+.images{
+    padding : 150px 400px;
+    display: flex;
+}
+.left , .right{
+    margin: 30px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+.img{
+    width: 200px;
+    padding: 20px;
+}
+.titlebox{
+    z-index: -1;
+    width: 200px;
+    top: 1%;
+    padding-top: 300px;
+    background-color: white;
+    position: absolute;
+    display: none;
+}
+.green{
+    color: green;
+    font-weight: bold;
+}
+.red{
+    font-weight: bold;
+    color: red;
+    text-decoration: line-through;
+}
+.btn{
+    width: 200px;
+    height: 30px;
+    border: none;
+    background-color: black;
+    color: lime;
+}
+.p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.span{
+    font-size: 12px;
+}
+.left:hover .titlebox{
+    display: block;
+}
+.right:hover .titlebox{
+    display: block;
+}

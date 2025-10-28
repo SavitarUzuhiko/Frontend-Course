@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+.big{
+    display: flex;
+}
+.sec{
+    width: 600px;
+    border: 3px solid gray;
+    background-color: gainsboro;
+}
+.txt{
+    color: gray;
+}
+.title{
+    font-weight: bold;
+    font-size: 40px;
+    margin: 20px;
+}
+.tl{
+    margin: 20px;
+}
+.h{
+    margin: 20px;
+}
+.img{
+    vertical-align: middle;
+}

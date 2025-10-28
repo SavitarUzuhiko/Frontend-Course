@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.section1{
+    background-image: url(watch\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: right -200px bottom -50px;
+    padding: 80px;
+    border-bottom: 2px solid gray;
+}
+.brand{
+    text-decoration: none;
+}
+.logo{
+    width: 60px;
+}
+.link{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    text-transform: capitalize;
+    margin-left: 50px;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    width: 30%;
+    margin: 120px 0 150px;
+}
+.h2{
+    font-size: 35px;
+    margin-bottom: 12px;
+}
+.p{
+    font-style: 21px;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 15px;
+    border-left: 2px solid gray;
+    padding-left: 20px;
+}
+.btn{
+    border: none;
+    background-color: red;
+    text-transform: uppercase;
+    color: white;
+    font-style: 21px;
+    padding: 5px 10px;
+}
+.section2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 120px;
+}
+.arcticle{
+    width: 31%;
+    font-style: 20px;
+    line-height: 1.6;
+    text-align: justify;
+}
+.square{
+    width: 15px;
+    height: 15px;
+    background-color: gray;
+    box-shadow: 30px 0 gray , 60px 0 gray;
+}

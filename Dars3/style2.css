@@ -1,0 +1,12 @@
+.box{
+    font-size: 32px;
+    padding: 80px;
+    line-height: 1.5;
+    box-shadow: 0 0 70px limegreen;
+    background-image: conic-gradient(
+        
+        red 0 35%,
+        yellow 35% 75%,
+        green 75% ,
+    );
+}

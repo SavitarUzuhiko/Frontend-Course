@@ -1,0 +1,61 @@
+.box1{
+    background-color: blue;
+    text-align: center;
+    font-size: 32px;
+    border: 2px solid blue;
+    border-radius: 30px;
+    padding: 5px;
+}
+.box2{
+    background-color: rgb(176, 173, 173);
+    border: 3px solid black;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.text{
+    margin-left: 15px;
+    font-size: 25px;
+}
+.link{
+    color: black;
+}
+.linkbox{
+    background-color: gray;
+    margin: 10px;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+.img{
+    vertical-align: middle;
+    margin: 8px;
+}
+.span{
+    font-size: 25px;
+}
+.btnbox{
+    text-align: center;
+    padding: 20px;
+}
+.btn{
+    border: 7px solid red ;
+    border-radius: 12px;
+    font-size: 30px;
+    padding: 10px 40px;
+    background-color: orange;
+}
+.img2{
+    vertical-align: middle;
+}
+.box3{
+    background: black;
+    text-align: center;
+    padding: 35px;
+    margin: 10px;
+    border-radius: 15px;
+
+}
+.a{
+    font-size: 35px;
+    margin: 15px;
+    color: limegreen;
+}

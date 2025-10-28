@@ -1,0 +1,52 @@
+/* *{
+    margin: 0;
+    box-sizing: border-box;
+}
+.big{
+    background-color: blue;
+    height: 100svh;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+.center{
+    background-color: white;
+    margin: 0 auto;
+    width: 550px;
+    padding: 10px;
+}
+.img{
+    border: 2px solid lime;
+    border-radius: 50%;
+    width: 20%;
+    margin: 15px;
+}
+.img2{
+    width: 100%;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.txt{
+    width: 70%;
+}
+.person {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-bottom: 2px solid gray;
+}
+.person1{
+    border: 0;
+} */
+
+.box{
+    width: 400px;
+    background-color: black;
+    color: lime;
+    font-size: 20px;
+
+}
+
+@media(max-width:1250px){
+    /* responsive */
+}

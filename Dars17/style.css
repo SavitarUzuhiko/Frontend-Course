@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+span, a{
+    display: inline-block;
+}
+h2{
+    font-size: 35px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.black{
+    color: black;
+}
+.big{
+    padding: 50px 55px;
+}
+.first{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;   
+}
+.second{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 125px;   
+}
+.imgbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;   
+}
+.textbox{
+    width: 40%;
+    margin-right: 100px;
+}
+.lefta{
+    font-weight:bold;
+    color: #147E45;
+    width: 20%;
+    text-decoration: none;
+    font-size: 20px;
+    font-size: 28px;
+}
+.righta{
+    width: 42%;
+}
+.link{
+    padding-right: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.btn{
+    background-color: #147E45;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 5px;
+    border: 0;
+}
+.img{
+    width: 70%;
+}
+.check{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 0;
+    box-shadow: 0 7px 7px gray;
+}
+.icon{
+    padding: 3px;
+    background-color: green;
+    border-radius: 50%;
+    color: white;
+}
+.checkbox{
+    margin: 7px 0;
+}
+.dot{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(183, 177, 177);
+    margin: 10px;
+    border-radius: 15px;
+
+}
+.dot1{
+    width: 20px;
+    height: auto;
+    background-color: green;
+}
+.dots{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+.h2{
+    margin: 7px 0;
+}
+
+.btn1{
+    margin: 10px 0;
+    font-size: 25px;
+    padding: 15px 80px;
+    border-radius: 10px;
+    border: 2px solid rgb(20, 166, 20);
+    background-color: rgb(20, 166, 20);
+    color: white;
+}
+.btn3{
+    background-color: white;
+    color: rgb(20, 166, 20);
+    border: 2px solid rgb(20, 166, 20);
+}
+.third{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.btn2{
+    padding: 15px 50px;
+}
+.txt{
+    width: 400px;
+    font-size: 16px;
+    margin: 30px 0;
+}
+.line{
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(91, 87, 87);
+}
+.other{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 40px;
+    min-width: 100%;
+
+}
+.st{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 95px;
+    width: 49%;
+}
+.s2{
+    border: 2px solid black;
+    width: 0.1%;
+}
+.txt4{
+    margin: 10px 0;
+}
+.div1{
+    margin-top: 40px;
+    width: 250px;
+}
+.us{
+    margin: 40px 0;
+    margin-left: 150px;
+}
+.fifth{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 90px;
+    margin: 50px 140px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px;
+}
+.btn4{
+    margin-right: 150px;
+}
+.txt5{
+    width: 350px;
+    font-size: 17px;
+}
+.sixth{
+    padding: 0 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.l{
+    width: 44%;
+}
+.h4{
+    padding-right: 100px;
+}
+.last{
+    width: 23%;
+}
+.link{
+    margin: 10px 0;
+}
+
+
+/* Hovers */
+.lefta:hover{
+    color: black;
+}
+.lefta:hover .black{
+    color: green;
+}
+.link:hover{
+    color: lime;
+}
+.btn:hover{
+    box-shadow: 0 5px 15px lime;
+}
+.check:hover{
+    box-shadow: 0 5px 15px lime;
+}
+.btn1:hover{
+    color: rgb(20, 166, 20);
+    background-color: white;
+    border:2px solid rgb(20, 166, 20);
+}
+.btn3:hover{
+    background-color:rgb(20, 166, 20);
+    color: white;
+
+}

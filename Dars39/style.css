@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+span , a , title {
+    display: inline-block;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.big{
+    min-height: 100dvh;
+    background-color: forestgreen; 
+    border: 15px solid brown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px 20px;
+}
+.imgbox{
+    width: 25%;
+    text-align: center;
+}
+.icon{
+    color: white;
+    font-size: 55px;
+}
+.box{
+    width: 65px;
+    height: 80px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p1{
+    color: white;
+    transform: rotate(270deg);
+    font-size: 20px;
+    font-weight: bold;
+}
+.table{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 70%;
+}
+.box1{
+    height: 240px;
+}
+.box2{
+    width: 130px;
+}
+.box3{
+    border-left: none;
+}
+.box4{
+    border-right: none;
+}
+.post{
+    color: white;
+    position: relative;
+}
+.p3{
+    position: absolute;
+    right: -40%;
+    font-size: 20px;
+}
+.circle{
+    animation: circle 0.1s infinite linear;
+    /* border-radius: 50%; */
+}
+.circle:hover {
+    animation-play-state: paused ;
+}
+@keyframes circle {
+    to {
+        transform: rotate(360deg);
+    }
+}
+@media (max-width:1482px){
+    .box1{
+        height: 20px;
+    }
+    .box2{
+        width: 10px;
+    }
+    .box{
+        width: 10px;
+        height: 10px;
+    }
+    .p1{
+        font-size: 16px;
+    }
+    .table{
+        width: 50%;
+    }
+}

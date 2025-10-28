@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.link{
+    text-decoration: none;
+    color: silver;
+    font-size: 20px;
+    margin-left: 20px;
+}
+h2{
+    font-size: 40px;
+}

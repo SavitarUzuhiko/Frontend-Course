@@ -1,0 +1,35 @@
+.big{
+    margin: auto;
+    width: 600px;
+    height: 300px;
+    padding: 30px;
+    background-color: skyblue;
+    background-image: url(sun.png) , url(moon.png) ;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: left , right;
+    border-radius: 200px;
+    transition: 0.5s all linear;
+}
+.last{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    border-radius: 50%;
+    transition: 0.5s all linear;
+    box-shadow: 0 0 30px gray;
+    transform: translateX(-15px);
+    text-align: center;
+}
+.big:hover .last{
+    transform: translateX(310px);
+    background-color: blue;
+    box-shadow: -5px -5px 20px yellow , -5px 5px 20px yellow;
+}
+.big:hover{
+    background-color: black;
+}
+.txt{
+    color: white;
+    font-size: 32px
+}

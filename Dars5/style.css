@@ -1,0 +1,12 @@
+.box{
+    width: 800px;
+    height: 600px;
+    padding: 100px;
+    background-color: black;    
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 25px 25px yellow;    
+}

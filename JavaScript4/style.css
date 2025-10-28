@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+span ,a , label{
+    text-decoration: none;
+    display: inline-block;
+}
+body{
+    background-color: yellow;
+}
+.big{
+    margin: 30px 80px;
+}
+form{
+    width: 1000px;
+    display: flex;
+}
+input{
+    padding: 5px 10px;
+    border: 2px solid black;
+    width: 40%;
+    margin: 0;
+}
+.btn{
+    width: 19%;
+    font-size: 20px;
+    padding: 2px 15px;
+    color: yellow;
+    background-color: black;
+    border: none;
+}
+
+.box{
+    margin: 50px;
+    width: 900px;
+    height: 300px;
+    background-color: black;
+    display: grid;
+    place-items: center;
+}
+.div{
+    color: black;
+    background-color: #fff;
+    width: 100px;
+    height: 20px;
+    display: grid;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-align: center;
+}

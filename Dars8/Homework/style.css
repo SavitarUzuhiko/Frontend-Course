@@ -1,0 +1,27 @@
+.big{
+    width: 1000px;
+    background-color: yellow;
+    padding: 90px 80px;
+    margin: auto;
+    border-radius: 50px;
+    box-shadow: 0 20px gray;
+}
+.imgbox{
+    padding: 50px;
+}
+.img1{
+    transform: scale(0.5);
+    opacity: 0.2;
+    transition: 0.3s all linear;
+}
+.img2{
+    transition: 0.3s all linear;
+}
+.big:hover .img2{
+    transform: scale(0.5);
+    opacity: 0.2;
+}
+.big:hover .img1{
+    transform: scale(1);
+    opacity: 1;
+}

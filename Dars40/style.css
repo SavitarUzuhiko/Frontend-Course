@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50dvh;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: inset -120px -120px 50px black;
+    animation: c1 2s linear alternate infinite;
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shadow{
+    width: 200px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: radial-gradient(circle ,
+    black,
+    white);
+    animation: sh1 2s linear alternate infinite;
+}
+@keyframes c1 {
+    to{
+        transform: translateY(-40dvh);
+    }
+}
+@keyframes sh1 {
+    to{
+        width: 100px;
+        height: 20px;
+    }
+}

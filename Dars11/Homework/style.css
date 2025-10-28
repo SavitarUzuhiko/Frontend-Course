@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.title {
+    text-align: center;
+}
+.first{
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1.6;
+}
+.txtbox{
+    width: 25%;
+    margin: 20px;
+}
+.txt1{
+    font-size: 22px;
+
+}
+.txt2{
+
+}
+.fs{
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border: 2px solid black;
+}
+.imgbox1{
+    width: 15%;
+    margin-right: 10px;
+}
+.imgbox2{
+    width: 50%;
+    vertical-align: middle;
+}
+.btnbox{
+    text-align: center;
+    padding: 20px;
+}
+.btn{
+    padding: 10px 20px;
+}
+.p2{
+    font-size: 15px;
+}
+.p3{
+    font-size: 20px;
+}

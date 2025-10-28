@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+span, a, title{
+    display: inline-block;
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.top{
+    background-image: linear-gradient(
+        90deg,
+        #d7dded 10%,
+        rgb(231, 228, 228) 75%
+    );
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+.left{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;    
+}
+.right{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.menu{
+    display: none;
+    position: absolute;
+    width: 150px;
+    border-radius: 10px;
+    background-color: rgb(210, 225, 255);
+    padding: 5px;
+    top: 100%;
+    right: 0;
+}
+.also{
+    width: 100px;
+}
+.menus{
+    padding: 3px 5px;
+    color: rgb(28, 28, 250);
+    text-align: center;
+}
+.icon{
+    font-size: 50px;
+    padding: 0 10px;
+}
+.p1{
+    font-size: 25px;
+    padding: 0 5px;
+    color: rgb(0, 0, 255);
+    font-weight: bold;
+}
+.span1{
+    font-size: 10px;
+}
+.search{
+    margin: 10px 0;
+    padding: 5px 10px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    background-color: white;
+    border: 1px solid black;
+}
+.span2{
+    padding: 0 5px ;
+}
+.span3{
+    font-size: 10px;
+    margin-right: 5px;
+    background-color: #d7dded;
+    padding: 2px;
+}
+.k{
+    padding: 2px 5px;
+}
+.icon{
+    color: rgb(41, 41, 249);
+}
+.icon1{
+    color: dodgerblue;
+    font-size: 17px;
+}
+.span4{
+    position: relative;
+    padding: 5px 15px;
+    border-radius: 15px;
+    color: rgb(0, 128, 255);
+}
+.btn{
+    background-color:rgb(231, 228, 228);
+    border: none;
+    padding: 5px;
+    font-size: 15px;
+    color: rgb(0, 128, 255);
+    border-radius: 15px;
+}
+.icon2{
+    font-size: 20px;
+}
+.sun{
+    margin-left: 15px;
+    font-size: 20px;
+    padding: 0 10px;
+    color: rgb(0, 128, 255);
+    border-radius: 15px;
+}
+.span4:hover{
+    background-color: rgb(45, 45, 251);
+    color: white;
+}
+.max{
+    margin-bottom: 10px;
+}
+.pro{
+    margin-top: 10px;
+}
+.line{
+    border: 1px solid black;
+}
+.boss{
+    position: relative;
+    margin-left: 15px;
+}
+.icon4{
+    padding-right: 10px;
+}
+.box{
+    position: absolute;
+    text-align: center;
+    display: none;
+    padding: 13px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: rgb(210, 225, 255) ;
+    top: 100%;
+    right: 0;
+}
+.sunbox{
+    position: relative;
+}
+.txt{
+    margin-top: 10px;
+}
+.imagebox{
+    width: 400px;
+    background-color: #e5e7eb;
+    padding: 10px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px auto;
+    border-radius: 15px;
+}
+.textbox{
+    margin: 0 auto;
+    width: 950px;
+    text-align: center;
+
+}
+.h1{
+    font-size: 50px;
+}
+.p{
+    font-size: 22px;
+    margin-top: 50px;
+}
+.img{
+    width: 50%;
+}
+.text{
+    width: 40%;
+    vertical-align: middle;
+}
+.link{
+    color: black;
+    margin-bottom: 10px;
+}
+.l{
+    margin: 0;
+}
+.underline{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.blue{
+    color: blue;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+.sun:hover{
+    background-color:rgb(0, 128, 255);
+    color: rgb(231, 228, 228);
+}
+.boss:hover .menu{
+    display: block;
+}
+.btn:hover{
+    background-color:rgb(0, 128, 255);
+    color: rgb(231, 228, 228);
+}
+.sunbox:hover .box{
+    display: block;
+}
+.menus:hover{
+    color: white;
+    background-color: rgb(28, 28, 250);
+    border-radius: 15px;
+}
+.txt:hover{
+    color: white;
+    background-color: rgb(28, 28, 250);
+    border-radius: 15px;
+}
+.link:hover{
+    text-decoration: underline;
+}

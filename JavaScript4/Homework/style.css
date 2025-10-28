@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+span , a , label {
+    display: inline-block;
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+    max-width: 100%;
+}
+.big{
+    margin: 50px;
+    font-family: sans-serif;
+}
+form{
+    display: flex;
+    margin: 20px 0;
+}
+input , button {
+    border: 2px solid black;
+    font-size: 20px;
+}
+button{
+    color: white;
+    background-color: black;
+}
+.p{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.img{
+    border: 5px solid silver;
+    width: 320px;
+    height: 400px;
+    object-fit: cover;
+}
+.green{
+    color: lime;
+}
+.red{
+    color: red;
+}
+.animate{
+    animation: vibrate 0.1s 2;
+}
+@keyframes vibrate {
+    33%{
+        transform: translateX(-7px);
+    }
+    65%{
+        transform: translateX(14px);
+    }
+    100%{
+        transform: translateX(-7px);
+    }
+}

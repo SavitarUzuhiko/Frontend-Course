@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.big{
+    min-height: 100dvh;
+    background-color: black;
+    padding: 20px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+}
+.square{
+    animation: square 3s linear infinite alternate;
+}
+.s{
+    width: 250px;
+    height: 250px;
+    background-color: #fff;
+    margin-right: 60px;
+}
+.square1{
+    animation: s1 1s linear infinite alternate;
+}
+.square2{
+    animation: s2 1s linear infinite alternate;
+}
+.square3{
+    animation: s3 1s linear infinite alternate;
+}
+.square4{
+    animation: s4 1s linear infinite alternate;
+}
+.big1{
+    min-height: 100dvh;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.div{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: 100px;
+    animation: circle linear 3.6s infinite;
+    opacity: 0;
+}
+.d2{
+    animation-delay: 0.6s;
+}
+.d3{
+    animation-delay: 1.2s;
+}
+.d4{
+    animation-delay: 1.8s;
+}
+.d5{
+    animation-delay: 2.4s;
+}
+.d6{
+    animation-delay: 3s;
+}
+@keyframes circle{
+    0%{
+        transform: translateX(350px)scale(0.4);
+        opacity: 0.1;
+    }
+    20% {
+        opacity: 0.5;
+        transform: translateX(-100px)scale(0.6);
+    }
+    40%{
+        opacity:1 ;
+        transform: translateX(-250px) scale(1);
+    }
+    60%{
+        opacity:1 ;
+        transform: translateX(950px) scale(1);
+    }
+    80%{
+        opacity: 0.5;
+        transform: translateX(800px)scale(0.6);
+    }
+    100%{
+        opacity: 0.1;
+        transform: translateX(350px)scale(0.4);
+    }
+}
+
+
+
+@keyframes square{
+    0%{
+        background-color: white;
+        transform: rotate(0deg);
+    }
+    25% {
+        border-radius: 50% 0 0 0;
+        background-color: forestgreen;
+        transform: rotate(30deg);
+    }
+    50%{
+        border-radius: 50% 50% 0 0;
+        background-color: yellow;
+        transform: rotate(60deg);
+    }
+    75%{
+        border-radius: 50% 50% 50% 0;
+        background-color: red;
+        transform: rotate(90deg);
+    }
+    100%{
+        border-radius: 50%;
+        background-color: blue;
+        transform: rotate(180deg);
+    }
+}
+@keyframes s1 {
+    from{
+        background-color: pink;
+    }
+    to {
+        border-radius: 50%;
+        background-color: pink;
+    }
+}
+@keyframes s2 {
+    from{
+        background-color: forestgreen;
+    }
+    to{
+        transform: rotate(90deg);
+        background-color: forestgreen;
+    }
+}
+@keyframes s3 {
+    from{
+        background-color: dodgerblue;
+    }
+    to{
+        scale: 0.5;
+        background-color: dodgerblue;
+    }
+}
+@keyframes s4{
+    from{
+        background-color: red;
+    }
+    to{
+        background-color: red;
+        transform: translateX(100px);
+    }
+}
+
+.box1{
+    background-image: url(Image.jpg);
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2{
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    animation: orbita 5s infinite linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sun{
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: white;
+}
+.planet{
+    width: 80px;
+    height: 80px;
+    background-image: linear-gradient(
+        dodgerblue 25%,
+        forestgreen);
+    border-radius: 50%;
+}
+.orbit2{
+    position: absolute;
+    top: -20%;
+    left: 38%;
+    border: 2px solid dodgerblue;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: orbita2 3s infinite linear;
+}
+.moon{
+    width: 50px;
+    height: 50px;
+    background-color: silver;
+    position: absolute;
+    top: -12%;
+    left: 38%;
+    border-radius: 50%;
+}
+@keyframes orbita {
+    to{
+        transform: rotate(360deg);
+    }
+}
+@keyframes orbita2 {
+    to{
+        transform: rotate(360deg);
+    }
+}
